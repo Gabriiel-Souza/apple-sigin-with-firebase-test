@@ -7,16 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B859AB052A49BF2C00535481 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B859AB042A49BF2C00535481 /* Kingfisher */; };
+		B859AB082A49C56C00535481 /* AppleCredentialDisplayName.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859AB072A49C56C00535481 /* AppleCredentialDisplayName.swift */; };
+		B859AB0C2A49CF4B00535481 /* LoggedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859AB0B2A49CF4B00535481 /* LoggedView.swift */; };
+		B859AB0E2A49CF6300535481 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859AB0D2A49CF6300535481 /* CurrentUser.swift */; };
+		B859AB112A49E49E00535481 /* LoggedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B859AB102A49E49E00535481 /* LoggedViewModel.swift */; };
+		B8A08D982A49019E00BA5A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A08D972A49019E00BA5A3A /* AppDelegate.swift */; };
+		B8A08D9B2A4904D300BA5A3A /* FirebaseService in Frameworks */ = {isa = PBXBuildFile; productRef = B8A08D9A2A4904D300BA5A3A /* FirebaseService */; };
+		B8A08D9D2A490CA800BA5A3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8A08D9C2A490CA800BA5A3A /* GoogleService-Info.plist */; };
+		B8A08DA12A4940E300BA5A3A /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A08DA02A4940E300BA5A3A /* SignInViewModel.swift */; };
 		B8AB84112A48EAD900B9C3AB /* Apple_Signin_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB84102A48EAD900B9C3AB /* Apple_Signin_TestApp.swift */; };
-		B8AB84132A48EAD900B9C3AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB84122A48EAD900B9C3AB /* ContentView.swift */; };
+		B8AB84132A48EAD900B9C3AB /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AB84122A48EAD900B9C3AB /* SignInView.swift */; };
 		B8AB84152A48EADB00B9C3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8AB84142A48EADB00B9C3AB /* Assets.xcassets */; };
 		B8AB84182A48EADB00B9C3AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8AB84172A48EADB00B9C3AB /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B8AB840D2A48EAD900B9C3AB /* Apple Signin Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Signin Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B859AB072A49C56C00535481 /* AppleCredentialDisplayName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleCredentialDisplayName.swift; sourceTree = "<group>"; };
+		B859AB0B2A49CF4B00535481 /* LoggedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedView.swift; sourceTree = "<group>"; };
+		B859AB0D2A49CF6300535481 /* CurrentUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		B859AB102A49E49E00535481 /* LoggedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedViewModel.swift; sourceTree = "<group>"; };
+		B8A08D972A49019E00BA5A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8A08D9C2A490CA800BA5A3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B8A08D9E2A490E1300BA5A3A /* Apple_Signin_Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Apple_Signin_Test.entitlements; sourceTree = "<group>"; };
+		B8A08DA02A4940E300BA5A3A /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		B8AB840D2A48EAD900B9C3AB /* Apple_Signin_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apple_Signin_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AB84102A48EAD900B9C3AB /* Apple_Signin_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Signin_TestApp.swift; sourceTree = "<group>"; };
-		B8AB84122A48EAD900B9C3AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8AB84122A48EAD900B9C3AB /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B8AB84142A48EADB00B9C3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8AB84172A48EADB00B9C3AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -26,16 +43,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B859AB052A49BF2C00535481 /* Kingfisher in Frameworks */,
+				B8A08D9B2A4904D300BA5A3A /* FirebaseService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B859AB062A49C55D00535481 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B859AB072A49C56C00535481 /* AppleCredentialDisplayName.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B859AB092A49CF2300535481 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B859AB0A2A49CF2A00535481 /* LoggedView */,
+				B8A08D9F2A4940CE00BA5A3A /* SignInView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B859AB0A2A49CF2A00535481 /* LoggedView */ = {
+			isa = PBXGroup;
+			children = (
+				B859AB0B2A49CF4B00535481 /* LoggedView.swift */,
+				B859AB102A49E49E00535481 /* LoggedViewModel.swift */,
+			);
+			path = LoggedView;
+			sourceTree = "<group>";
+		};
+		B859AB0F2A49D36B00535481 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B859AB0D2A49CF6300535481 /* CurrentUser.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B8A08D962A49019000BA5A3A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B8A08D972A49019E00BA5A3A /* AppDelegate.swift */,
+				B8AB84102A48EAD900B9C3AB /* Apple_Signin_TestApp.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B8A08D9F2A4940CE00BA5A3A /* SignInView */ = {
+			isa = PBXGroup;
+			children = (
+				B8AB84122A48EAD900B9C3AB /* SignInView.swift */,
+				B8A08DA02A4940E300BA5A3A /* SignInViewModel.swift */,
+			);
+			path = SignInView;
+			sourceTree = "<group>";
+		};
 		B8AB84042A48EAD900B9C3AB = {
 			isa = PBXGroup;
 			children = (
-				B8AB840F2A48EAD900B9C3AB /* Apple Signin Test */,
+				B8AB840F2A48EAD900B9C3AB /* Apple_Signin_Test */,
 				B8AB840E2A48EAD900B9C3AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +114,23 @@
 		B8AB840E2A48EAD900B9C3AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B8AB840D2A48EAD900B9C3AB /* Apple Signin Test.app */,
+				B8AB840D2A48EAD900B9C3AB /* Apple_Signin_Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8AB840F2A48EAD900B9C3AB /* Apple Signin Test */ = {
+		B8AB840F2A48EAD900B9C3AB /* Apple_Signin_Test */ = {
 			isa = PBXGroup;
 			children = (
-				B8AB84102A48EAD900B9C3AB /* Apple_Signin_TestApp.swift */,
-				B8AB84122A48EAD900B9C3AB /* ContentView.swift */,
+				B8A08D9E2A490E1300BA5A3A /* Apple_Signin_Test.entitlements */,
+				B8A08D962A49019000BA5A3A /* Core */,
+				B859AB092A49CF2300535481 /* Views */,
+				B859AB062A49C55D00535481 /* Extensions */,
+				B8CC863E2A48FB14000DB347 /* Firebase */,
 				B8AB84142A48EADB00B9C3AB /* Assets.xcassets */,
 				B8AB84162A48EADB00B9C3AB /* Preview Content */,
 			);
-			path = "Apple Signin Test";
+			path = Apple_Signin_Test;
 			sourceTree = "<group>";
 		};
 		B8AB84162A48EADB00B9C3AB /* Preview Content */ = {
@@ -67,12 +141,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B8CC863E2A48FB14000DB347 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				B859AB0F2A49D36B00535481 /* Authentication */,
+				B8CC863F2A48FB1F000DB347 /* GoogleServices */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		B8CC863F2A48FB1F000DB347 /* GoogleServices */ = {
+			isa = PBXGroup;
+			children = (
+				B8A08D9C2A490CA800BA5A3A /* GoogleService-Info.plist */,
+			);
+			path = GoogleServices;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B8AB840C2A48EAD900B9C3AB /* Apple Signin Test */ = {
+		B8AB840C2A48EAD900B9C3AB /* Apple_Signin_Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8AB841B2A48EADB00B9C3AB /* Build configuration list for PBXNativeTarget "Apple Signin Test" */;
+			buildConfigurationList = B8AB841B2A48EADB00B9C3AB /* Build configuration list for PBXNativeTarget "Apple_Signin_Test" */;
 			buildPhases = (
 				B8AB84092A48EAD900B9C3AB /* Sources */,
 				B8AB840A2A48EAD900B9C3AB /* Frameworks */,
@@ -82,9 +173,13 @@
 			);
 			dependencies = (
 			);
-			name = "Apple Signin Test";
+			name = Apple_Signin_Test;
+			packageProductDependencies = (
+				B8A08D9A2A4904D300BA5A3A /* FirebaseService */,
+				B859AB042A49BF2C00535481 /* Kingfisher */,
+			);
 			productName = "Apple Signin Test";
-			productReference = B8AB840D2A48EAD900B9C3AB /* Apple Signin Test.app */;
+			productReference = B8AB840D2A48EAD900B9C3AB /* Apple_Signin_Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +197,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8AB84082A48EAD900B9C3AB /* Build configuration list for PBXProject "Apple Signin Test" */;
+			buildConfigurationList = B8AB84082A48EAD900B9C3AB /* Build configuration list for PBXProject "Apple_Signin_Test" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +206,15 @@
 				Base,
 			);
 			mainGroup = B8AB84042A48EAD900B9C3AB;
+			packageReferences = (
+				B8A08D992A4904D300BA5A3A /* XCRemoteSwiftPackageReference "FirebaseService" */,
+				B859AB032A49BF2C00535481 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B8AB840E2A48EAD900B9C3AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B8AB840C2A48EAD900B9C3AB /* Apple Signin Test */,
+				B8AB840C2A48EAD900B9C3AB /* Apple_Signin_Test */,
 			);
 		};
 /* End PBXProject section */
@@ -126,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8AB84182A48EADB00B9C3AB /* Preview Assets.xcassets in Resources */,
+				B8A08D9D2A490CA800BA5A3A /* GoogleService-Info.plist in Resources */,
 				B8AB84152A48EADB00B9C3AB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8AB84132A48EAD900B9C3AB /* ContentView.swift in Sources */,
+				B8A08DA12A4940E300BA5A3A /* SignInViewModel.swift in Sources */,
+				B8A08D982A49019E00BA5A3A /* AppDelegate.swift in Sources */,
+				B8AB84132A48EAD900B9C3AB /* SignInView.swift in Sources */,
+				B859AB082A49C56C00535481 /* AppleCredentialDisplayName.swift in Sources */,
+				B859AB0C2A49CF4B00535481 /* LoggedView.swift in Sources */,
+				B859AB0E2A49CF6300535481 /* CurrentUser.swift in Sources */,
+				B859AB112A49E49E00535481 /* LoggedViewModel.swift in Sources */,
 				B8AB84112A48EAD900B9C3AB /* Apple_Signin_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +370,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Apple_Signin_Test/Apple_Signin_Test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Apple Signin Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Apple_Signin_Test/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UCZ959GPV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -293,9 +400,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Apple_Signin_Test/Apple_Signin_Test.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Apple Signin Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Apple_Signin_Test/Preview Content\"";
 				DEVELOPMENT_TEAM = 9UCZ959GPV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +428,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8AB84082A48EAD900B9C3AB /* Build configuration list for PBXProject "Apple Signin Test" */ = {
+		B8AB84082A48EAD900B9C3AB /* Build configuration list for PBXProject "Apple_Signin_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8AB84192A48EADB00B9C3AB /* Debug */,
@@ -329,7 +437,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8AB841B2A48EADB00B9C3AB /* Build configuration list for PBXNativeTarget "Apple Signin Test" */ = {
+		B8AB841B2A48EADB00B9C3AB /* Build configuration list for PBXNativeTarget "Apple_Signin_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8AB841C2A48EADB00B9C3AB /* Debug */,
@@ -339,6 +447,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B859AB032A49BF2C00535481 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		B8A08D992A4904D300BA5A3A /* XCRemoteSwiftPackageReference "FirebaseService" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rebeloper/FirebaseService";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B859AB042A49BF2C00535481 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B859AB032A49BF2C00535481 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B8A08D9A2A4904D300BA5A3A /* FirebaseService */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8A08D992A4904D300BA5A3A /* XCRemoteSwiftPackageReference "FirebaseService" */;
+			productName = FirebaseService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B8AB84052A48EAD900B9C3AB /* Project object */;
 }
