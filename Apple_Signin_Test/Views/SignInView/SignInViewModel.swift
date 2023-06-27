@@ -19,9 +19,11 @@ class SignInViewModel: ObservableObject {
     
     @Published var isErrorAlertPresented = false
     private var currentNonce = ""
+    @Published var email = ""
+    @Published var password = ""
     
-    // MARK: - Hnadlers Functions
-    func requestSignIn(with request: ASAuthorizationAppleIDRequest) {
+    // MARK: - Apple Handler Functions
+    func requestAppleSignIn(with request: ASAuthorizationAppleIDRequest) {
         let nonce = randomNonceString()
         currentNonce = nonce
         
@@ -29,7 +31,7 @@ class SignInViewModel: ObservableObject {
         request.requestedScopes = [.fullName]
     }
     
-    func didCompleteSignin(with result: Result<ASAuthorization, Error>) {
+    func didCompleteAppleSignin(with result: Result<ASAuthorization, Error>) {
         switch result {
         case .success(let success):
             guard let appleIDCredential = success.credential as? ASAuthorizationAppleIDCredential else {
@@ -62,7 +64,9 @@ class SignInViewModel: ObservableObject {
             
             
         case .failure(let failure):
-            errorMessage = failure.localizedDescription
+            if !failure.localizedDescription.contains("error 1001") {
+                errorMessage = failure.localizedDescription
+            }
         }
     }
     
@@ -83,6 +87,25 @@ class SignInViewModel: ObservableObject {
         
         DispatchQueue.main.async {
             AppUser.shared.updateUser(with: user)
+        }
+    }
+    
+    // MARK: - Email/Password Functions
+    func registerUser() {
+        Auth.auth().createUser(withEmail: email, password: password) { [weak self] (result, error) in
+            guard error == nil else {
+                self?.errorMessage = error?.localizedDescription ?? ""
+                return
+            }
+        }
+    }
+    
+    func login() {
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self] (result, error) in
+            guard error == nil else {
+                self?.errorMessage = error?.localizedDescription ?? ""
+                return
+            }
         }
     }
     
